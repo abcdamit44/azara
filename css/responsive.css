@@ -1,0 +1,40 @@
+    @media(max-width:767px) {
+        nav img {
+            transform: scale(0.5);
+            transition: 200ms ease-in-out;
+        }
+        .ks-transpatent {
+            justify-content: space-between !important;
+        }
+        .pattern {
+            width: 0;
+            height: 0;
+            border-bottom: 130px solid #916576;
+            border-left: 380px solid transparent;
+        }
+        .pattern .ks-title h6 {
+            letter-spacing: 5px;
+            font-size: 15px;
+        }
+        .pattern .ks-title h5 {
+            position: absolute;
+            top: -27px;
+            font-size: 28px;
+        }
+        .pattern .ks-title {
+            position: absolute;
+            left: -256px;
+            bottom: -124px;
+        }
+        .ks-img-carousel-2 .pattern .ks-title h5 {
+            left: 97px;
+            font-size: 28px !important;
+            top: -21px;
+        }
+        .ks-img-carousel-3 .pattern .ks-title h5 {
+            font-size: 28px !important;
+        }
+        .ks-card-section .card {
+            width: 100%;
+        }
+    }

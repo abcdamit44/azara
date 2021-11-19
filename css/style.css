@@ -1,0 +1,304 @@
+/* Import Font */
+
+@font-face {
+    font-family: Adelia;
+    src: url(../fonts/adelia\ 400.ttf);
+}
+
+@font-face {
+    font-family: Century;
+    src: url(../fonts/Century\ Gothic\ 400.ttf);
+}
+
+@font-face {
+    font-family: TimeSans;
+    src: url(../fonts/Times\ Sans\ Serif\ 400.ttf);
+}
+
+
+/* Import Font end */
+
+
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* Reset CSS End*/
+
+
+/* Important CSS */
+
+.adelia {
+    font-family: Adelia !important;
+}
+
+.century {
+    font-family: Century !important;
+}
+
+.timesans {
+    font-size: TimeSans !important;
+}
+
+.ks-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.ks-transpatent {
+    background: rgba(0, 0, 0, 0.129);
+    height: 100px;
+}
+
+.ks-transpatent img {
+    transform: scale(0.5);
+}
+
+
+/* Important CSS END*/
+
+
+/* Navbar Start */
+
+nav {
+    background: url(../images/leaf.jpg) no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 999;
+    width: 100%;
+    position: absolute;
+}
+
+nav img {
+    transform: scale(0.75);
+    transition: 200ms ease-in-out;
+}
+
+
+/* Navbar end */
+
+.ks-background {
+    background: url(../images/leaf.jpg) no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    height: 100vh;
+    width: 100%;
+}
+
+.pattern {
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid #916576;
+    border-left: 650px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.pattern .ks-title {
+    position: absolute;
+    left: -400px;
+    bottom: -133px;
+}
+
+.pattern .ks-title h6 {
+    letter-spacing: 10px;
+    font-size: 15px;
+}
+
+.pattern .ks-title h5 {
+    position: absolute;
+    top: -48px;
+    transform: skew( 10deg, -10deg) !important;
+    font-size: 2.8rem;
+}
+
+
+/* banner Section start */
+
+.ks-background h2 {
+    letter-spacing: 1.6vw;
+    animation-name: ks-animate;
+    animation-duration: 2500ms;
+    animation-delay: 1s;
+}
+
+.ks-background h3 {
+    transform: skew( 10deg, -10deg);
+    animation-name: ks-animate;
+    animation-duration: 2500ms;
+    animation-delay: 1s;
+}
+
+@keyframes ks-animate {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+
+/* banner Section end */
+
+
+/* Image carousel-1 Section start */
+
+.ks-img-carousel-1 .item-1 {
+    background: url(../images/image-1.jpg);
+}
+
+.ks-img-carousel-1 .item-2 {
+    background: url(../images/image-2.jpg);
+}
+
+
+/* Image carousel-1 Section end */
+
+
+/* Image carousel-2 Section start */
+
+.ks-img-carousel-2 .item-1 {
+    background: url(../images/image-3.jpg);
+}
+
+.ks-img-carousel-2 .item-2 {
+    background: url(../images/image-4.jpg);
+}
+
+.ks-img-carousel-2 .pattern .ks-title h5 {
+    left: 137px;
+    font-size: 2.5rem !important;
+    top: -40px;
+}
+
+
+/* Image carousel-2 Section end */
+
+
+/* Image carousel-3 Section start */
+
+.ks-img-carousel-3 .item-1 {
+    background: url(../images/image-5.jpg);
+}
+
+.ks-img-carousel-3 .item-2 {
+    background: url(../images/image-6.jpg);
+}
+
+.ks-img-carousel-3 .pattern .ks-title h5 {
+    font-size: 2.5rem !important;
+}
+
+
+/* Image carousel-3 Section end */
+
+
+/* Video Section Start */
+
+.ks-video-section {
+    height: 100vh;
+}
+
+.ks-video-section iframe {
+    width: 100%;
+}
+
+.html5-video-container video {
+    display: block !important;
+    width: 100% !important;
+    position: absolute !important;
+    left: unset !important;
+    height: calc(100vw/1.77) !important;
+}
+
+
+/* Video Section End */
+
+
+/* Card Section start */
+
+.ks-card-section {
+    background-color: #f6f7f2;
+    background: url(../images/flower.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    height: 132vh;
+    width: 100%;
+}
+
+.ks-card-section .card {
+    width: 480px;
+    background-color: #f4f3ef4d;
+    border-radius: 13px;
+    text-align: center;
+    box-shadow: inset;
+    border: none !important;
+    box-shadow: inset;
+}
+
+.ks-card-section .card h3 {
+    font-size: 2.5rem;
+    font-family: TimeSans;
+    color: #916576;
+    font-weight: 600;
+}
+
+.ks-card-section .card p {
+    font-size: 1.3rem;
+    font-family: TimeSans;
+    color: #916576;
+    font-weight: 500;
+    height: 115px;
+}
+
+.ks-card-section .card a {
+    font-size: 1.3rem;
+    font-family: TimeSans;
+    color: #916576;
+    font-weight: 500;
+}
+
+.ks-card-section .card span {
+    font-size: 1.3rem;
+    font-family: TimeSans;
+    color: #916576;
+    font-weight: 500;
+}
+
+.ks-card-img {
+    background-color: #f6f7f2;
+}
+
+
+/* Card Section end */
